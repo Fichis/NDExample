@@ -29,6 +29,11 @@
             return $a + $b;
         }
     ?>
+    <script>
+        function resta(a, b) {
+            return a - b;
+        }
+    </script>
 </body>
 
 </html>
