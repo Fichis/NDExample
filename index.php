@@ -10,7 +10,7 @@
 <body>
     <h1>Estructura basica</h1>
     <?php
-        /*
+    /*
             Function: suma
             Suma dos números
 
@@ -22,14 +22,28 @@
                 El resultado de la suma
             
             See Also:
-                
+                <resta>
         */
-        function suma($a, $b)
-        {
-            return $a + $b;
-        }
+    function suma($a, $b)
+    {
+        return $a + $b;
+    }
     ?>
     <script>
+        /*
+            Function: resta
+            Resta dos números
+
+            Parameters:
+                a - Primer número
+                b - Segundo número
+            
+            Returns:
+                El resultado de la resta
+            
+            See Also:
+               <suma>
+        */
         function resta(a, b) {
             return a - b;
         }
